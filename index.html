@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #e8dfdf;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+/* .circular-photo {
+  width: 300px; /* Adjust the width to make the image smaller */
+  /* height: 300px; /* Adjust the height to make the image smaller */
+  /* border-radius: 50%; */
+  /* object-fit: cover; Ensures the image covers the container while maintaining aspect ratio */
+  /* border: 2px solid #efdc08; Optional: add border if needed */
+/* } */
+ /* */ 
+
+
+
+.skill-box {
+    background-color: #0d0b0b; /* Light gray background color */
+    border: 1px solid #d4ef0c;    /* Gray border */
+    border-radius: 5px;        /* Rounded corners */
+    padding: 10px 20px;        /* Padding inside the box */
+    text-align: center;        /* Center text inside the box */
+    font-weight: bold;         /* Make text bold */
+    text-transform: uppercase; /* Transform text to uppercase */
+    min-width: 120px;          /* Minimum width of the box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
+}
+
+
+/* Skill box container */
+.skill-box {
+    background-color: #050505;
+    border: 2px solid #eae70d;
+    padding: 8px 1px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 150px;
+    margin: 10px;
+}
+
+/* Hover effect */
+.skill-box:hover {
+    background-color: #f1f7f7;
+    box-shadow: 0 4px 8px rgba(223, 5, 5, 0.032);
+}
+
+/* Style the main heading */
+.main_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox gap */
+.d-flex {
+    display: flex;
+    gap: 10px; /* Space between skill boxes */
+    flex-wrap: wrap;
+}
+
+/* Container padding */
+#technical {
+    padding: 50px 0;
+    background-color: #0b0303;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* General styles for certificate section */
+.certificate-section {
+    padding: 50px 0;
+    background-color: #100101;
+}
+
+.big-4 {
+    font-size: 30px;
+    color: #f3f0f0;
+    margin-bottom: 20px;
+}
+
+/* Certificate hover zoom effect */
+.zoom-effect {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* Image zoom on hover */
+.zoom-effect:hover {
+    transform: scale(1.05);
+}
+
+/* Blog entry container */
+.blog-entry {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.blog-entry:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Text and heading */
+.blog-entry .text {
+    padding: 20px;
+}
+
+.blog-entry .heading a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.blog-entry .heading a:hover {
+    color: #0056b3;
+}
+
+
+
+
+.download-box {
+    font-weight: bold;
+    color: #0b0b0b;
+    background-color: #ffbd39; /* Background color of the box */
+    padding: 10px 20px; /* Space inside the box */
+    border-radius: 20px; /* Rounded corners */
+    border: 0px solid #14dbd1; /* Border color */
+    margin-right: 15px; /* Space between text and icon */
+    display: inline-block; /* Ensures the box wraps around the text */
+}
+
+
+
+
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"></a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#certificate-section" class="nav-link"><span>Certificate</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+			  <li class="nav-item"><a href="#experience-section" class="nav-link"><span>Experience</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+			  <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+
+	  
+
+
+
+	<section id="home-section" class="hero">
+		<div class="home-slider owl-carousel">
+		  <div class="slider-item">
+			<div class="overlay"></div>
+			<div class="container">
+			  <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-between" data-scrollax-parent="true">
+				<div class="one-half d-flex align-items-center justify-content-center ftco-animate text-left">
+				  <div class="text">
+					<span class="subheading">Welcome!🙏</span>
+					<h1 class="mb-4 mt-3">I'm <span> Narendra Bariha </span></h1>
+	  
+					<!-- Element to contain animated typing -->
+					<span id="typing-animation"></span>
+	  
+					<script>
+					  // Initialize the typing animation
+					  const typingAnimationElement = document.getElementById('typing-animation');
+	  
+					  // Create an array of typing text
+					  const typingTexts = [
+						'  ',
+						'  ',
+						'   ',
+					  ];
+	  
+					  // Create a function to display the typing animation for a given text
+					  function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+						  setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+						  }, i * 200); // Increase the delay to slow down the typing animation
+						}
+	  
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+						  typingAnimationElement.textContent = '';
+						  playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+					  }
+	  
+					  // Start the typing animation loop
+					  playTypingAnimation(typingTexts[0]);
+					</script>
+	  
+					<br>
+					<br>
+					<h2>𝐀𝐬𝐩𝐢𝐫𝐢𝐧𝐠 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐭/𝐃𝐚𝐭𝐚 𝐒𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭 </h2>
+					<p><a href="https://www.youtube.com/@narendra45_78" class="btn btn-primary py-3 px-4">YouTube</a> 
+					  <a href="https://github.com/narendrabariha" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			
+				  </div>
+				</div>
+				<div class="one-half d-flex align-items-center justify-content-center">
+				  <div class="about-img">
+					<img src="images/Picture22.png" alt="Narendra Bariha" class="circular-photo">
+				  <!-- </div> -->
+				<!-- </div> -->
+			  <!-- </div> -->
+			<!-- </div> -->
+		  <!-- </div> -->
+		<!-- </div> -->
+	  </section>
+	  
+
+	  
+
+
+
+	  <section class="ftco-section about-section ftco-no-pb" id="about-section">
+		<div class="container">
+			<!-- <div class="row justify-content-center mb-5 pb-3"> -->
+			<!-- <div class="col-md-7 heading-section text-center ftco-animate"> -->
+			  <h1 class="big big-2"></h1>
+					
+
+					<div id="about" class="pt-lg-80 pt-40">
+						<div class="col-12">
+							<div class="portfolio-heading-center pt-0" style="text-align: center;">
+								<h2 class="main_title"><strong>About Me</strong></h2>
+								<p class="sub_title"></p>
+							</div>
+						</div>
+					
+						<div class="col-12">
+							<p class="fs-18 fw-500 text-gray-800 text-justify pb-xl-80 pb-40" style="line-height: 1.6;">
+								<br />I am 𝐌𝐞𝐜𝐡𝐚𝐧𝐢𝐜𝐚𝐥 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 graduate with a keen interest in Artificial Intelligence , Machine Learning , and Deep Learning. My engineering background has equipped me with a strong foundation in analytical thinking and problem-solving, which I now channel into the dynamic fields of data science and advanced analytics.<br />
+								<br />My transition from mechanical engineering to data science has been driven by a passion for utilizing advanced techniques to extract valuable insights and foster innovation. This journey has been inspired by my eagerness to apply analytical methods and data-driven strategies to solve complex problems and contribute to groundbreaking advancements.<br />
+
+								<br />I am a quick learner and constantly seeking new challenges to expand my skill set. Eager to leverage my technical expertise, I am committed to harnessing these skills to drive impactful insights and innovative solutions in data science.
+								</p>
+						</div>
+					</div>
+					
+
+
+						
+					
+
+
+					<div id="technical">
+						<div class="col-12">
+							<div class="portfolio-heading-center" style="text-align: center;">
+								<h2 class="main_title" style="font-weight: bold;">Technical Skills</h2>
+								<p class="sub_title"></p>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="d-flex justify-content-center align-items-center flex-wrap gap-4 mb-xl-100 mb-60">
+								<div class="skill-box">Excel</div>
+								<div class="skill-box">Power BI</div>
+								<div class="skill-box">Tableau</div>
+								<div class="skill-box">Python</div>
+								<div class="skill-box">SQL</div>
+								<div class="skill-box">Machine Learning</div>
+								<div class="skill-box">Deep Learning</div>
+								<div class="skill-box">N.L.P</div>
+							</div>
+						</div>
+					</div>
+					
+
+    <!-- </section> -->
+
+
+	
+
+
+	
+
+
+
+<section class="ftco-section certificate-section ftco-no-pb text-center" id="certificate-section">
+    <h1 class="big-4" style="font-weight: bold;">Certificates</h1>
+	<div class="underline"></div>
+    <br>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Certificate 1 -->
+            <div class="col-md-4 d-flex ftco-animate justify-content-center">
+                <div class="blog-entry">
+                    <a href="https://drive.google.com/file/d/1QkWVJrrUiYQDWrHOxGuWl5FIBqC4NYKr/view?usp=drive_link" 
+                       class="block-20 zoom-effect" 
+                       style="background-image: url('images/1.png'); background-size: cover; background-position: center; 
+                              width: 100%; height: 0; padding-bottom: 75%;">
+                    </a>
+                    <div class="text mt-3 d-block">
+                        <h3 class="heading">
+                            <a href="https://drive.google.com/file/d/1QkWVJrrUiYQDWrHOxGuWl5FIBqC4NYKr/view?usp=drive_link">Data Science by Tutedude</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="col-md-4 d-flex ftco-animate justify-content-center">
+                <div class="blog-entry">
+                    <a href="https://drive.google.com/file/d/1VYBuUsch5E8RQ5oT9WerD35wP7_uYFmW/view?usp=drive_link" 
+                       class="block-20 zoom-effect" 
+                       style="background-image: url('images/narendra-ds-certificate.png'); background-size: cover; background-position: center; 
+                              width: 100%; height: 0; padding-bottom: 75%;">
+                    </a>
+                    <div class="text mt-3 d-block">
+                        <h3 class="heading">
+                            <a href="https://drive.google.com/file/d/1VYBuUsch5E8RQ5oT9WerD35wP7_uYFmW/view?usp=drive_link">Data Science by Coding Square</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="col-md-4 d-flex ftco-animate justify-content-center">
+                <div class="blog-entry">
+                    <a href="https://drive.google.com/file/d/1NofW9qn2W73I2XI0XZeVnhqqn35Rf7jj/view?usp=drive_link" 
+                       class="block-20 zoom-effect" 
+                       style="background-image: url('images/DS\ Scala.jpg'); background-size: cover; background-position: center; 
+                              width: 100%; height: 0; padding-bottom: 75%;">
+                    </a>
+                    <div class="text mt-3 d-block">
+                        <h3 class="heading">
+                            <a href="https://drive.google.com/file/d/1NofW9qn2W73I2XI0XZeVnhqqn35Rf7jj/view?usp=drive_link">Data Science by Cognitive Class </a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <!-- Certificate 4 -->
+            <div class="col-md-4 d-flex ftco-animate justify-content-center">
+                <div class="blog-entry">
+                    <a href="https://drive.google.com/file/d/1iBUc4r6B3yXG2dcj1jYWDJ2FrSHfM-Sr/view?usp=drive_link" 
+                       class="block-20 zoom-effect" 
+                       style="background-image: url('images/Masters in Data Science Certificate _page-0001.jpg'); background-size: cover; background-position: center; 
+                              width: 100%; height: 0; padding-bottom: 141%;">
+                    </a>
+                    <div class="text mt-3 d-block">
+                        <h3 class="heading">
+                            <a href="https://drive.google.com/file/d/1iBUc4r6B3yXG2dcj1jYWDJ2FrSHfM-Sr/view?usp=drive_link">Master in Data Science by TopMentor</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate 5 -->
+            <div class="col-md-4 d-flex ftco-animate justify-content-center">
+                <div class="blog-entry">
+                    <a href="https://drive.google.com/file/d/1-xbHn1sgx0b3ZgL3B927yAArmK5iHsct/view?usp=drive_link" 
+                       class="block-20 zoom-effect" 
+                       style="background-image: url('images/Data Analytics Certificate_page-0001.jpg'); background-size: cover; background-position: center; 
+                              width: 100%; height: 0; padding-bottom: 141%;">
+                    </a>
+                    <div class="text mt-3 d-block">
+                        <h3 class="heading">
+                            <a href="https://drive.google.com/file/d/1-xbHn1sgx0b3ZgL3B927yAArmK5iHsct/view?usp=drive_link">Data Analytics by TopMentor</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate 6 -->
+            <div class="col-md-4 d-flex ftco-animate justify-content-center">
+                <div class="blog-entry">
+                    <a href="https://drive.google.com/file/d/1ZFLifNSfwMGY2oI17GYYOnGeT1enzf2F/view?usp=drive_link" 
+                       class="block-20 zoom-effect" 
+                       style="background-image: url('images/Internship Certificate_page-0001.jpg'); background-size: cover; background-position: center; 
+                              width: 100%; height: 0; padding-bottom: 141%;">
+                    </a>
+                    <div class="text mt-3 d-block">
+                        <h3 class="heading">
+                            <a href="https://drive.google.com/file/d/1ZFLifNSfwMGY2oI17GYYOnGeT1enzf2F/view?usp=drive_link">Data Science Intern at Access Million</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  /* Adjust the font size for the 'Projects' heading */
+  #project-section .heading-section h2 {
+      font-size: 35px; /* Change this value to adjust the font size */
+  }
+</style>
+
+<section class="ftco-section" id="project-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2"></h1>
+                <h2 class="mb-4">Projects</h2>
+                <p>Below are the Data Science projects on SQL, Python, Power BI & ML.</p>
+            </div>
+        </div>
+    
+
+
+	 <!-- <section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2"></h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>Below are the Data Science projects on SQL, Python, Power BI & ML.</p>
+				</div>
+			</div> -->
+	
+			<div class="row justify-content-center">
+				<!-- Project 1 -->
+				<div class="col-md-4 d-flex ftco-animate justify-content-center">
+					<div class="blog-entry">
+						<a href="https://github.com/narendrabariha/M.L---Fraud-Transaction-Detection" 
+						   class="block-20 zoom-effect" 
+						   style="background-image: url('images/proj_1.png'); background-size: cover; background-position: center; 
+								  width: 100%; height: 0; padding-bottom: 63%;">
+						</a>
+						<div class="text mt-3 d-block">
+							<h3 class="heading">
+								<a href="https://github.com/narendrabariha/M.L---Fraud-Transaction-Detection">Fraud Detection Analysis</a>
+							</h3>
+							<p>Developed a robust ML model for Fraud Transaction Detection, enhancing security and minimizing false positives.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 2 -->
+				<div class="col-md-4 d-flex ftco-animate justify-content-center">
+					<div class="blog-entry">
+						<a href="https://github.com/narendrabariha/E.D.A----Diwali_Sales_Analysis" 
+						   class="block-20 zoom-effect" 
+						   style="background-image: url('images/proj_2.jpg'); background-size: cover; background-position: center; 
+								  width: 100%; height: 0; padding-bottom: 63%;">
+						</a>
+						<div class="text mt-3 d-block">
+							<h3 class="heading">
+								<a href="https://github.com/narendrabariha/E.D.A----Diwali_Sales_Analysis">Diwali Sales Analysis</a>
+							</h3>
+							<p>Performed exploratory data analysis on Diwali sales data using Python to improve the customer experience.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 3 -->
+				<div class="col-md-4 d-flex ftco-animate justify-content-center">
+					<div class="blog-entry">
+						<a href="https://github.com/narendrabariha/E.D.A--M.L.---Restaurant-Data-Analysis" 
+						   class="block-20 zoom-effect" 
+						   style="background-image: url('images/proj_3.png'); background-size: cover; background-position: center; 
+								  width: 100%; height: 0; padding-bottom: 63%;">
+						</a>
+						<div class="text mt-3 d-block">
+							<h3 class="heading">
+								<a href="https://github.com/narendrabariha/E.D.A--M.L.---Restaurant-Data-Analysis">Restaurant Rating Analysis</a>
+							</h3>
+							<p>Analyzed restaurant ratings: Handled missing data, visualized geospatial distribution, evaluated price ranges, and built predictive models.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<br>
+	
+			<!-- Additional Projects Row 2 -->
+			<div class="row justify-content-center">
+				<!-- Project 4 -->
+				<div class="col-md-4 d-flex ftco-animate justify-content-center">
+					<div class="blog-entry">
+						<a href="https://github.com/narendrabariha/E.D.A.---Tech-Company-Layoffs/tree/main" 
+						   class="block-20 zoom-effect" 
+						   style="background-image: url('images/proj4.png'); background-size: cover; background-position: center; 
+								  width: 100%; height: 0; padding-bottom: 63%;">
+						</a>
+						<div class="text mt-3 d-block">
+							<h3 class="heading">
+								<a href="https://github.com/narendrabariha/E.D.A.---Tech-Company-Layoffs/tree/main">Company Layoffs Analysis</a>
+							</h3>
+							<p>Analyzed layoffs by company, HQ location, industry, and provided insights into workforce trends and impact.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 5 -->
+				<div class="col-md-4 d-flex ftco-animate justify-content-center">
+					<div class="blog-entry">
+						<a href="https://github.com/narendrabariha/Tableau---NETFLIX-Analysis/tree/main" 
+						   class="block-20 zoom-effect" 
+						   style="background-image: url('images/proj_4.jpg'); background-size: cover; background-position: center; 
+								  width: 100%; height: 0; padding-bottom: 63%;">
+						</a>
+						<div class="text mt-3 d-block">
+							<h3 class="heading">
+								<a href="https://github.com/narendrabariha/Tableau---NETFLIX-Analysis/tree/main">NETFLIX Analysis</a>
+							</h3>
+							<p>Used Tableau to analyze Netflix content by country, genre, ratings, and year to understand global reach and content trends.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 6 -->
+				<div class="col-md-4 d-flex ftco-animate justify-content-center">
+					<div class="blog-entry">
+						<a href="https://github.com/narendrabariha/M.L.----Customer_Segmentation-Analysis/tree/main" 
+						   class="block-20 zoom-effect" 
+						   style="background-image: url('images/proj_5.jpg'); background-size: cover; background-position: center; 
+								  width: 100%; height: 0; padding-bottom: 63%;">
+						</a>
+						<div class="text mt-3 d-block">
+							<h3 class="heading">
+								<a href="https://github.com/narendrabariha/M.L.----Customer_Segmentation-Analysis/tree/main">Customer Segmentation Analysis</a>
+							</h3>
+							<p>Developed a machine learning model to provide product recommendations for targeted customer groups.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+
+	
+
+
+	<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg); height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative;">
+		<div class="text-center" style="position: absolute; top: 10%; width: 100%; text-align: center;">
+			<h2 style="color: #fff;">More projects on <span>Github</span></h2>
+			<div class="heading" style="white-space: nowrap;">
+				<h4 style="display: inline; font-size: 24px; color: #fff;">I love to solve business problems & uncover hidden data stories</h4>
+			</div>
+		</div>
+		<div class="text-center" style="position: absolute; bottom: 00%; width: 100%; text-align: center;">
+			<p class="mb-4">
+				<div style="white-space: nowrap;">
+					<span class="number" data-number="30" style="font-size: 40px; color: #f9fffa; font-weight: bold;">30</span>
+					<span style="font-size: 30px; color: #c8cf0c; font-weight: bold;">+</span>
+					<h4 style="display: inline; font-size: 30px; color: #f9f8f8; font-weight: bold;">&nbsp;Projects Completed</h4>
+				</div>
+	
+				
+		</div>
+	</div>
+	
+	<p style="text-align: center;">
+		<a href="https://github.com/narendrabariha?tab=repositories" class="btn btn-primary py-3 px-3" target="_blank" rel="noopener noreferrer">Github Repo</a>
+	</p>
+</div>
+</div>
+	
+	
+
+
+
+
+
+
+
+<!-- Experience -->
+
+
+
+<style>
+  /* Adjust the font size for the 'Experience' heading */
+  #experience-section .main_title {
+      font-size: 30px; /* Change this value to adjust the font size */
+  }
+</style>
+<section class="ftco-section experience-section ftco-no-pb" id="experience-section">
+  <div id="experience" class="pt-lg-80 pt-40">
+      <div class="col-12">
+          <div class="portfolio-heading-center pt-0" style="text-align: center;">
+              <h2 class="main_title"><strong>Experience</strong></h2>
+              <p class="sub_title"></p>
+          </div>
+      </div>
+  <!-- </div>
+</section> -->
+
+
+
+<div class="container">
+  <!-- <div class="row justify-content-center mb-5 pb-3"> -->
+  <!-- <div class="col-md-7 heading-section text-center ftco-animate"> -->
+    <h1 class="big big-2"></h1>
+
+
+
+	  
+<!-- <section class="ftco-section experience-section ftco-no-pb" id="experience-section"></section>
+		<div id="experience" class="pt-lg-80 pt-40">
+			<div class="col-12">
+				<div class="portfolio-heading-center pt-0" style="text-align: center;">
+					<h2 class="main_title"><strong>Experience</strong></h2>
+					<p class="sub_title"></p>
+				</div>
+			</div> -->
+		
+			<div class="col-12">
+				<div class="fs-18 fw-500 text-gray-800 text-justify pb-xl-80 pb-40" style="line-height: 1.1;">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2023-2024</span>
+						<h2>Data Science Intern</h2>
+						<span class="position">Access Million Pvt. Ltd.</span>
+						<p class="mt-4">
+							During my internship at Access Million Pvt. Ltd., I focused on leveraging data science techniques to enhance marketing strategies and decision-making processes. My key contributions included:
+							<ul>
+								<li>Developed data-driven insights and strategies to optimize marketing campaigns.</li>
+								<li>Applied machine learning techniques to analyze customer behavior and preferences.</li>
+								<li>Collaborated with cross-functional teams to improve data collection and analysis processes.</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+
+
+
+
+<!-- <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2"></h1>
+                <h2 class="mb-4">Contact Me</h2>
+                <p>Below are the details to reach out to me!</p>
+            </div>
+        </div> -->
+
+
+
+
+
+        <style>
+          /* Adjust the font size for the 'Contact Me' heading */
+          #contact-section .heading-section h2 {
+              font-size: 30px; /* Change this value to adjust the font size */
+          }
+        </style>
+        
+        <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+            <div class="container">
+                <div class="row justify-content-center mb-5 pb-3">
+                    <div class="col-md-7 heading-section text-center ftco-animate">
+                        <h1 class="big big-2"></h1>
+                        <h2 class="mb-4">Contact Me</h2>
+                        <p>Below are the details to reach out to me!</p>
+                    </div>
+                </div>
+            <!-- </div> -->
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row d-flex contact-info mb-5 justify-content-center">
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-map-signs"></span>
+                    </div>
+                    <h3 class="mb-4">Address</h3>
+                    <p>Nagpur, Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-phone2"></span>
+                    </div>
+                    <h3 class="mb-4">Contact Number</h3>
+                    <p><a href="tel://0101010101">+91 9834460597</a></p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-paper-plane"></span>
+                    </div>
+                    <h3 class="mb-4">Email Address</h3>
+                    <p><a href="mailto:info@yoursite.com">narendrabarihan@gmail.com</a></p>
+                </div>
+            </div>
+            
+</section>
+
+
+<!-- <section class="ftco-section resume-section ftco-no-pb" id="resume-section"></section>
+<div class="row justify-content-center mt-5">
+	<div class="col-md-6 text-center ftco-animate">
+		<p><a href="https://drive.google.com/file/d/11I3D3sp21y7eRWJ-ABqv0t9UCqqEoG_F/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download updated CV</a></p>
+	</div>
+</div>
+</div>
+</section> -->
+
+
+
+
+
+
+<section class="ftco-section resume-section ftco-no-pb" id="resume-section"></section>
+<div class="row justify-content-center mt-5">
+  <div class="col-md-6 text-center ftco-animate">
+
+  <div class="container">
+    <br>
+    <br>
+    <div class="row justify-content-center">
+    </div>
+    <br>
+    <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+        <li class="ftco-animate download-box">DOWNLOAD updated CV</li>
+        <li class="ftco-animate">
+            <a href="https://drive.google.com/file/d/1ICASTqAp1oIErBHZeTlcn8PDwbYNuyU5/view?usp=drive_link">
+                <span class="icon-download"></span>
+            </a>
+        </li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+		  
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<!-- <div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div> -->
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.youtube.com/@narendra45_78"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/narendra-bariha/"><span class="icon-linkedin"></span></a></li>  
+					  <!-- <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com//"><span class="icon-instagram"></span></a></li> -->
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
+
+
+
+<!-- VIW COUNET------ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Counter</title>
+    <style>
+        /* Container for the counter */
+        .counter-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            padding: 0px;
+            border: 1px solid #ebeb31;
+            border-radius: 8px;
+            background-color: #080808;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the counter image */
+        .counter-container img {
+            display: box;
+            max-width: 1;
+            height: auto;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter-container">
+        <!-- HitWebCounter Code -->
+        <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=16205826&style=0006&nbdigits=1&type=page&initCount=0" 
+                 title="Counter Widget" 
+                 alt="Visit counter for websites" />
+        </a>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Counter</title>
+    <style>
+        /* Container for the counter */
+        .counter-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px; /* Adjust width as needed */
+            height: 50px; /* Adjust height as needed */
+            margin: 20px auto;
+            padding: 5px;
+            border: 1px solid #ebeb31; /* Border color */
+            border-radius: 8px;
+            background-color: #080808; /* Background color */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Hide any overflow */
+        }
+
+        /* Styling for the counter image */
+        .counter-container img {
+            display: block;
+            width: 100%; /* Fit image to container width */
+            height: auto;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter-container">
+        <!-- HitWebCounter Code -->
+        <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=16205842&style=0006&nbdigits=1&type=ip&initCount=0" 
+                 title="Counter Widget" 
+                 alt="Visit counter for websites" />
+        </a>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Views</title>
+    <style>
+        .number {
+            font-weight: bold;
+            font-size: 12px;
+            color: #007bff;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="number">
+        My Views: <span id="myViews">0</span>
+    </div>
+    <div class="number">
+        Others' Views: <span id="othersViews">0</span>
+    </div>
+
+    <script>
+        // My views tracking using localStorage
+        let myViews = localStorage.getItem('myViews') || 0;
+        myViews++;
+        localStorage.setItem('myViews', myViews);
+        document.getElementById('myViews').textContent = myViews;
+
+        // Others' views tracking using sessionStorage (or potentially server-side logic)
+        let othersViews = sessionStorage.getItem('othersViews') || 0;
+        if (!localStorage.getItem('isMyProfile')) {
+            othersViews++;
+            sessionStorage.setItem('othersViews', othersViews);
+        }
+        document.getElementById('othersViews').textContent = othersViews;
+
+        // Optional flag to mark this as "your profile" so that it doesn't count as 'others'
+        localStorage.setItem('isMyProfile', true);
+    </script>
+</body>
+</html> 
